@@ -1,37 +1,82 @@
-# Amazon Sales & Customer Analysis 📊
+# 🛒 Amazon Sales & Customer Analysis
 
-A SQL and Power BI-driven project analyzing product performance, discount efficiency, and customer behavior on an Amazon-like marketplace.
+A business-focused analytics project exploring product performance, pricing behavior, and customer engagement on an Amazon-like e-commerce platform, using only SQL and Power BI.
 
-##  Objective
-To extract business-critical insights from product, order, and review data using SQL and visualize patterns through Power BI dashboards.
+---
+
+##  Project Overview
+
+This project simulates real-world retail analytics by answering key business questions through SQL queries and dashboard storytelling.  
+It focuses on understanding what drives revenue, how discounts and ratings impact performance, and where user experience can be improved.
+
+---
+
+##  Business Questions Answered
+
+- Which products and categories bring the most revenue?  
+- Do higher product ratings lead to better sales?  
+- Are deep discounts always effective?  
+- Which users are most engaged based on review activity?  
+- Which product segments show negative sentiment trends?
 
 ---
 
 ##  Key Insights
 
-- **Top Revenue Drivers:** Electronics category dominates both total and per-unit revenue.
-- **Rating ≠ Sales:** High ratings don't consistently translate to high sales volume.
-- **Ineffective Discounts:** Several products with 50%+ discounts still showed minimal sales.
-- **Customer Loyalty:** Majority of users are repeat buyers, suggesting high retention potential.
-- **Review Sentiment:** Electronics and Home & Kitchen categories receive most negative reviews.
+- Electronics dominate revenue and profit per unit  
+- 50%+ discounts didn’t always improve sales performance  
+- High-rated products didn’t always sell well  
+- Repeat buyers were more common than one-time purchasers  
+- Some categories had higher negative review volumes
 
 ---
 
-##  Tools & Technologies
+##  Tools & Tech
 
-- **SQL (MySQL):** Business logic, joins, aggregations, CTEs  
-- **Power BI:** Dashboards and data storytelling  
-- **Canva:** Visual presentation  
-- **Data Source:**  
-  - Base dataset sourced from [Kaggle](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset) 
-  - Synthetic order table created for unit-level granularity
+- **SQL (MySQL):** Aggregations, joins, CTEs, stored procedures, views  
+- **Power BI:** Sales and customer dashboards    
+- **Canva:** Final project visuals and case-study-style presentation
 
 ---
 
-##  Business Impact
+##  Dashboards Built
 
-- Enables product and category-level strategy refinement
-- Surfaces inefficiencies in discount strategy and rating assumptions
-- Provides visibility into user sentiment and retention behavior
-- Supports data-backed decision-making for product, pricing, and CX teams
+**1. Sales & Product Performance Dashboard**  
+> Revenue vs. units sold, discount analysis, pricing efficiency
+
+**2. Customer & Experience Dashboard**  
+> Loyalty trends, review behavior, sentiment hotspots
+
+---
+
+##  SQL Components
+
+- Revenue logic (`units_sold * discounted_price`) done in-query  
+- High-discount/low-sales flagging using `HAVING` clause  
+- Category-level KPIs built into a reusable SQL **VIEW**  
+- Product-level revenue ranking via **stored procedure**
+
+---
+
+##  Dataset Details
+
+- Source: Kaggle [https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset]  
+- Synthetic `orders` table added for transaction-level analysis  
+
+
+---
+
+##  Deliverables
+
+- 📁 SQL query scripts  
+- 📊 Power BI dashboards  
+- 🧾 Business presentation (PDF format)
+
+---
+
+##  Let's Connect
+
+📧 juhiishriwastav@gmail.com  
+🔗 [linkedin.com/in/juhiishriwastav](https://linkedin.com/in/juhiishriwastav)
+
 
